@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4003E732D330D2E00F15380 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4003E722D330D2E00F15380 /* Quartz.framework */; };
+		F4003E752D330D3800F15380 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4003E742D330D3800F15380 /* CoreGraphics.framework */; };
+		F4003E772D330D3D00F15380 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4003E762D330D3D00F15380 /* Cocoa.framework */; };
+		F4003E7B2D330D4900F15380 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4003E7A2D330D4900F15380 /* AppKit.framework */; };
+		F4003E7D2D330D6800F15380 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4003E7C2D330D6800F15380 /* ApplicationServices.framework */; };
+		F40AF0B72D330E54001C9386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40AF0B32D330E53001C9386 /* Foundation.framework */; };
+		F40AF0BC2D3312BF001C9386 /* DriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40AF0BB2D3312BF001C9386 /* DriverKit.framework */; };
+		F40AF0C02D3312CE001C9386 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40AF0BF2D3312CE001C9386 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4003DE32D32C7BE00F15380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4003DC42D32C7BC00F15380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4003DCB2D32C7BC00F15380;
+			remoteInfo = FeatherAutoClicker;
+		};
+		F4003DED2D32C7BE00F15380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4003DC42D32C7BC00F15380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4003DCB2D32C7BC00F15380;
+			remoteInfo = FeatherAutoClicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4003DCC2D32C7BC00F15380 /* FeatherAutoClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeatherAutoClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4003DE22D32C7BE00F15380 /* FeatherAutoClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeatherAutoClickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4003DEC2D32C7BE00F15380 /* FeatherAutoClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeatherAutoClickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4003E722D330D2E00F15380 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		F4003E742D330D3800F15380 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4003E762D330D3D00F15380 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F4003E782D330D4100F15380 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		F4003E7A2D330D4900F15380 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F4003E7C2D330D6800F15380 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		F40AF0B32D330E53001C9386 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F40AF0BB2D3312BF001C9386 /* DriverKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DriverKit.framework; path = System/Library/Frameworks/DriverKit.framework; sourceTree = SDKROOT; };
+		F40AF0BF2D3312CE001C9386 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F42572B32D358C3F00C20E1E /* Exceptions for "FeatherAutoClicker" folder in "FeatherAutoClicker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				"Preview Content/Preview Assets.xcassets",
+			);
+			target = F4003DCB2D32C7BC00F15380 /* FeatherAutoClicker */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		F402EBAD2D402EB200A8BB49 /* Exceptions for "FeatherAutoClicker" folder in "Compile Sources" phase from "FeatherAutoClicker" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = F4003DC82D32C7BC00F15380 /* Sources */;
+			membershipExceptions = (
+				"Headers/FeatherAutoClicker-Bridging-Header.h",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F4003DCE2D32C7BC00F15380 /* FeatherAutoClicker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F42572B32D358C3F00C20E1E /* Exceptions for "FeatherAutoClicker" folder in "FeatherAutoClicker" target */,
+				F402EBAD2D402EB200A8BB49 /* Exceptions for "FeatherAutoClicker" folder in "Compile Sources" phase from "FeatherAutoClicker" target */,
+			);
+			path = FeatherAutoClicker;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4003DC92D32C7BC00F15380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40AF0C02D3312CE001C9386 /* IOKit.framework in Frameworks */,
+				F40AF0BC2D3312BF001C9386 /* DriverKit.framework in Frameworks */,
+				F40AF0B72D330E54001C9386 /* Foundation.framework in Frameworks */,
+				F4003E7D2D330D6800F15380 /* ApplicationServices.framework in Frameworks */,
+				F4003E7B2D330D4900F15380 /* AppKit.framework in Frameworks */,
+				F4003E772D330D3D00F15380 /* Cocoa.framework in Frameworks */,
+				F4003E752D330D3800F15380 /* CoreGraphics.framework in Frameworks */,
+				F4003E732D330D2E00F15380 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4003DDF2D32C7BE00F15380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4003DE92D32C7BE00F15380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4003DC32D32C7BC00F15380 = {
+			isa = PBXGroup;
+			children = (
+				F4003DCE2D32C7BC00F15380 /* FeatherAutoClicker */,
+				F4003E712D330D2E00F15380 /* Frameworks */,
+				F4003DCD2D32C7BC00F15380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4003DCD2D32C7BC00F15380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4003DCC2D32C7BC00F15380 /* FeatherAutoClicker.app */,
+				F4003DE22D32C7BE00F15380 /* FeatherAutoClickerTests.xctest */,
+				F4003DEC2D32C7BE00F15380 /* FeatherAutoClickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4003E712D330D2E00F15380 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F40AF0BF2D3312CE001C9386 /* IOKit.framework */,
+				F40AF0BB2D3312BF001C9386 /* DriverKit.framework */,
+				F40AF0B32D330E53001C9386 /* Foundation.framework */,
+				F4003E7C2D330D6800F15380 /* ApplicationServices.framework */,
+				F4003E7A2D330D4900F15380 /* AppKit.framework */,
+				F4003E782D330D4100F15380 /* Carbon.framework */,
+				F4003E762D330D3D00F15380 /* Cocoa.framework */,
+				F4003E742D330D3800F15380 /* CoreGraphics.framework */,
+				F4003E722D330D2E00F15380 /* Quartz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4003DCB2D32C7BC00F15380 /* FeatherAutoClicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4003DF62D32C7BE00F15380 /* Build configuration list for PBXNativeTarget "FeatherAutoClicker" */;
+			buildPhases = (
+				F4003DC82D32C7BC00F15380 /* Sources */,
+				F4003DC92D32C7BC00F15380 /* Frameworks */,
+				F4003DCA2D32C7BC00F15380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F4003DCE2D32C7BC00F15380 /* FeatherAutoClicker */,
+			);
+			name = FeatherAutoClicker;
+			packageProductDependencies = (
+			);
+			productName = FeatherAutoClicker;
+			productReference = F4003DCC2D32C7BC00F15380 /* FeatherAutoClicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4003DE12D32C7BE00F15380 /* FeatherAutoClickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4003DF92D32C7BE00F15380 /* Build configuration list for PBXNativeTarget "FeatherAutoClickerTests" */;
+			buildPhases = (
+				F4003DDE2D32C7BE00F15380 /* Sources */,
+				F4003DDF2D32C7BE00F15380 /* Frameworks */,
+				F4003DE02D32C7BE00F15380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4003DE42D32C7BE00F15380 /* PBXTargetDependency */,
+			);
+			name = FeatherAutoClickerTests;
+			packageProductDependencies = (
+			);
+			productName = FeatherAutoClickerTests;
+			productReference = F4003DE22D32C7BE00F15380 /* FeatherAutoClickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4003DEB2D32C7BE00F15380 /* FeatherAutoClickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4003DFC2D32C7BE00F15380 /* Build configuration list for PBXNativeTarget "FeatherAutoClickerUITests" */;
+			buildPhases = (
+				F4003DE82D32C7BE00F15380 /* Sources */,
+				F4003DE92D32C7BE00F15380 /* Frameworks */,
+				F4003DEA2D32C7BE00F15380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4003DEE2D32C7BE00F15380 /* PBXTargetDependency */,
+			);
+			name = FeatherAutoClickerUITests;
+			packageProductDependencies = (
+			);
+			productName = FeatherAutoClickerUITests;
+			productReference = F4003DEC2D32C7BE00F15380 /* FeatherAutoClickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4003DC42D32C7BC00F15380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F4003DCB2D32C7BC00F15380 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F4003DE12D32C7BE00F15380 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F4003DCB2D32C7BC00F15380;
+					};
+					F4003DEB2D32C7BE00F15380 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F4003DCB2D32C7BC00F15380;
+					};
+				};
+			};
+			buildConfigurationList = F4003DC72D32C7BC00F15380 /* Build configuration list for PBXProject "FeatherAutoClicker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4003DC32D32C7BC00F15380;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F4003DCD2D32C7BC00F15380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4003DCB2D32C7BC00F15380 /* FeatherAutoClicker */,
+				F4003DE12D32C7BE00F15380 /* FeatherAutoClickerTests */,
+				F4003DEB2D32C7BE00F15380 /* FeatherAutoClickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4003DCA2D32C7BC00F15380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4003DE02D32C7BE00F15380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4003DEA2D32C7BE00F15380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4003DC82D32C7BC00F15380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4003DDE2D32C7BE00F15380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4003DE82D32C7BE00F15380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4003DE42D32C7BE00F15380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4003DCB2D32C7BC00F15380 /* FeatherAutoClicker */;
+			targetProxy = F4003DE32D32C7BE00F15380 /* PBXContainerItemProxy */;
+		};
+		F4003DEE2D32C7BE00F15380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4003DCB2D32C7BC00F15380 /* FeatherAutoClicker */;
+			targetProxy = F4003DED2D32C7BE00F15380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4003DF42D32C7BE00F15380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/FeatherAutoClicker/Core/Bridges/**";
+				LIBRARY_SEARCH_PATHS = "";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FeatherAutoClicker/Headers/FeatherAutoClicker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_IMPORT_OBJC_FORWARD_DECLS = YES;
+			};
+			name = Debug;
+		};
+		F4003DF52D32C7BE00F15380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/FeatherAutoClicker/Core/Bridges/**";
+				LIBRARY_SEARCH_PATHS = "";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "FeatherAutoClicker/Headers/FeatherAutoClicker-Bridging-Header.h";
+				SWIFT_UPCOMING_FEATURE_IMPORT_OBJC_FORWARD_DECLS = YES;
+			};
+			name = Release;
+		};
+		F4003DF72D32C7BE00F15380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FeatherAutoClicker/FeatherAutoClicker.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FeatherAutoClicker/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S7YUS578H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeatherAutoClicker/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qohh.FeatherAutoClicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FeatherAutoClicker/Headers/FeatherAutoClicker-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F4003DF82D32C7BE00F15380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FeatherAutoClicker/FeatherAutoClicker.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FeatherAutoClicker/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S7YUS578H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeatherAutoClicker/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qohh.FeatherAutoClicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FeatherAutoClicker/Headers/FeatherAutoClicker-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F4003DFA2D32C7BE00F15380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qohh.FeatherAutoClickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeatherAutoClicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FeatherAutoClicker";
+			};
+			name = Debug;
+		};
+		F4003DFB2D32C7BE00F15380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qohh.FeatherAutoClickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeatherAutoClicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FeatherAutoClicker";
+			};
+			name = Release;
+		};
+		F4003DFD2D32C7BE00F15380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qohh.FeatherAutoClickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FeatherAutoClicker;
+			};
+			name = Debug;
+		};
+		F4003DFE2D32C7BE00F15380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qohh.FeatherAutoClickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FeatherAutoClicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4003DC72D32C7BC00F15380 /* Build configuration list for PBXProject "FeatherAutoClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4003DF42D32C7BE00F15380 /* Debug */,
+				F4003DF52D32C7BE00F15380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4003DF62D32C7BE00F15380 /* Build configuration list for PBXNativeTarget "FeatherAutoClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4003DF72D32C7BE00F15380 /* Debug */,
+				F4003DF82D32C7BE00F15380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4003DF92D32C7BE00F15380 /* Build configuration list for PBXNativeTarget "FeatherAutoClickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4003DFA2D32C7BE00F15380 /* Debug */,
+				F4003DFB2D32C7BE00F15380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4003DFC2D32C7BE00F15380 /* Build configuration list for PBXNativeTarget "FeatherAutoClickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4003DFD2D32C7BE00F15380 /* Debug */,
+				F4003DFE2D32C7BE00F15380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4003DC42D32C7BC00F15380 /* Project object */;
+}
